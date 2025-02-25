@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 10vh;
+    padding: 20px 0;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    flex: 1;
+    flex-direction: column;
+}
+footer{
+    padding: 20px 0;
+    background-color: indianred;
+}
