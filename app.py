@@ -29,4 +29,4 @@ def submit():
         return render_template('index.html', erro="Erro no sistema! Volte outra hora.")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5002)
